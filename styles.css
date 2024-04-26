@@ -1,0 +1,187 @@
+body{
+   font-family: 'Arial', sans-serif; 
+   margin: 0;
+   padding: 0;
+   background-color: #f0f7ff; 
+   color: #333;}
+
+/* Main container styles */
+.container {
+    width: 100%;
+}
+
+/* Header styles */
+header {
+    background-image: url('sky.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1em 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Monospace', monospace;
+    font-size: 2em;
+    padding-left: 5%;
+}
+
+nav a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+/* Home section styles */
+.home {
+    background-color: #ffff;
+    position: relative;
+}
+
+.home img {
+    position: absolute;
+    top:0;
+    left: 55%;
+    max-width: 50%;
+    height: auto;
+}
+
+.home-text {
+    padding-left: 5%;
+    width: 50%;
+    color: #000;
+    font-family: 'Monospace', monospace;
+}
+
+.home-text h2 {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Monospace', monospace;
+    font-style: italic;
+    color: #000;
+}
+
+/* About section styles */
+.about {
+    background-color: #000;
+    color: #fff;
+    text-align:center;
+    font-family: 'Monospace', monospace;
+    padding: 20px;
+}
+
+.about-content  h2{
+      font-weight: bold;
+      font-size : 3em;
+      color:#fff;
+      font-style: italic;
+}
+
+
+.about-content {
+       max-width:70%; 
+       padding-left: 5%;
+       margin: 0 auto;
+}
+
+.round-image (
+    margin-top : 20px;
+    border-radius : 50%;
+    overflow: hidden;
+    width : 100px;
+    height : 100px;
+    margin: 0 auto;
+}  
+.round-image img {
+       max-width: 100%;
+       height: auto;
+       border-radius: 50%;
+       display: block; 
+       margin: 0 auto;
+       }
+
+.contact-image {
+    margin-right: 5px;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  
+}
+ .contact {
+       background-color: #fff;
+       font-family: 'Monospace' , monospace;
+         }
+            
+
+.contact-content {
+         display : flex;
+         }
+
+h2{
+   color: #000;
+   font-size : 2em; 
+   font-weight: bold; 
+   font-style: italic;
+}
+
+/* Form styles */
+form{
+     display: grid;
+     grid-template-columns: 1fr 1fr; 
+     gap: 20px;
+     margin: 0 auto;
+    }
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+    border-radius : 5px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    background-image: url('sky.png');
+    background-size: cover;
+    text-align: center;
+    padding: 1em 0;
+}
